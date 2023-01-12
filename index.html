@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculadora">
+        <div class="topo">
+          <div class="placa-marrom"></div>
+          <div class="escrita">
+            <h1>TN</h1>
+            <br />
+            <p>office</p>
+          </div>
+        </div>
+        <div class="tela" id="tela"></div>
+        <!-- 
+          <p id="resultado"></p>
+          TEla de outro projeto remover 
+        -->
+        <div class="botoes">
+          <div class="botoesTopo">
+            <button id="btnAzul" class="btn" value="CE">
+              <p id="on">ON</p>
+              <p>CE</p>
+            </button>
+
+            <div class="btnAmarelo">
+              <span>MRC</span>
+              <button class="btn" value="MRC"></button>
+            </div>
+
+            <div class="btnAmarelo">
+              <span>M-</span>
+              <button class="btn" value="M-"></button>
+            </div>
+
+            <div class="btnAmarelo">
+              <span>M+</span>
+              <button class="btn" value="M+"></button>
+            </div>
+          </div>
+          <div class="botoes-inferiores">
+            <div class="botoes-inferiores-coluna">
+              <button class="btn" id="btn-off" onclick="off()">OFF</button>
+              <button class="btn" id="btn-7" value="7">7</button>
+              <button class="btn" id="btn-4" value="4">4</button>
+              <button class="btn" id="btn-1" value="1">1</button>
+              <button class="btn" id="btn-0" value="0">0</button>
+            </div>
+            <div class="botoes-inferiores-coluna">
+              <button class="btn" id="btn-raiz" value="Math.sqrt()">√</button>
+              <button class="btn" id="btn-8" value="8">8</button>
+              <button class="btn" id="btn-5" value="5">5</button>
+              <button class="btn" id="btn-2" value="2">2</button>
+              <button class="btn" id="btn-dot" value="."><div></div></button>
+            </div>
+            <div class="botoes-inferiores-coluna">
+              <button class="btn" id="btn-porcentagem" value="%">%</button>
+              <button class="btn" id="btn-9" value="9">9</button>
+              <button class="btn" id="btn-6" value="6">6</button>
+              <button class="btn" id="btn-3" value="3">3</button>
+              <button class="btn" id="btn-igual" value="=">=</button>
+            </div>
+            <div class="botoes-inferiores-coluna">
+              <button class="btn" id="btn-divisao" value="/">√</button>
+              <button class="btn" id="btn-multi" value="*">X</button>
+              <button class="btn" id="btn-sub" value="-">-</button>
+              <button class="btn" id="btn-adi" value="+">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

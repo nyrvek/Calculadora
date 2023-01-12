@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+  margin-top: 5px;
+  height: 650px;
+  width: 400px;
+  border-radius: 30px;
+  background-color: #161616;
+}
+.topo {
+  display: flex;
+  color: #fff;
+  justify-content: space-around;
+}
+
+.escrita {
+  margin-top: 5px;
+}
+
+.escrita p {
+  margin-top: -20px;
+}
+
+.placa-marrom {
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 200px;
+  height: 40px;
+  background-color: #111111;
+  border-radius: 10px;
+}
+
+.tela {
+  margin-top: 18px;
+  margin-left: 40px;
+  width: 330px;
+  height: 90px;
+  background-color: #0f310f;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+  color: rgb(250, 248, 248);
+}
+
+.botoesTopo {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#btnAzul {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 80px;
+  height: 80px;
+  background-color: #00a7a8;
+  border-radius: 70px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#on {
+  border-bottom: solid 1px #ffffff;
+}
+
+.btnAmarelo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnAmarelo button {
+  background-color: yellow;
+  width: 50px;
+  height: 20px;
+  border-radius: 20px;
+}
+.botoes-inferiores {
+  margin-left: 50px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.botoes-inferiores-coluna {
+  display: flex;
+  flex-direction: column;
+}
+
+.botoes-inferiores-coluna button {
+  background-color: #121212;
+  color: #c4c4c4;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+#btn-dot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-dot div {
+  height: 10px;
+  width: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+#btn-adi {
+  height: 130px;
+  background-color: #00a7a8;
+}
