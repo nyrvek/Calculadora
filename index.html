@@ -26,7 +26,7 @@
         -->
         <div class="botoes">
           <div class="botoesTopo">
-            <button id="btnAzul" class="btn" value="CE">
+            <button id="btnAzul" class="btn" onclick="on()">
               <p id="on">ON</p>
               <p>CE</p>
             </button>
@@ -48,31 +48,39 @@
           </div>
           <div class="botoes-inferiores">
             <div class="botoes-inferiores-coluna">
-              <button class="btn" id="btn-off" onclick="off()">OFF</button>
-              <button class="btn" id="btn-7" value="7">7</button>
-              <button class="btn" id="btn-4" value="4">4</button>
-              <button class="btn" id="btn-1" value="1">1</button>
-              <button class="btn" id="btn-0" value="0">0</button>
+              <button class="btn" id="btn-off" onclick="clean()">OFF</button>
+              <button class="btn" id="btn-7" onclick="insert(7)">7</button>
+              <button class="btn" id="btn-4" onclick="insert(4)">4</button>
+              <button class="btn" id="btn-1" onclick="insert(1)">1</button>
+              <button class="btn" id="btn-0" onclick="insert(0)">0</button>
             </div>
             <div class="botoes-inferiores-coluna">
               <button class="btn" id="btn-raiz" value="Math.sqrt()">√</button>
-              <button class="btn" id="btn-8" value="8">8</button>
-              <button class="btn" id="btn-5" value="5">5</button>
-              <button class="btn" id="btn-2" value="2">2</button>
-              <button class="btn" id="btn-dot" value="."><div></div></button>
+              <button class="btn" id="btn-8" onclick="insert(8)">8</button>
+              <button class="btn" id="btn-5" onclick="insert(5)">5</button>
+              <button class="btn" id="btn-2" onclick="insert(2)">2</button>
+              <button class="btn" id="btn-dot" onclick="insert(`.`)">
+                <div></div>
+              </button>
             </div>
             <div class="botoes-inferiores-coluna">
-              <button class="btn" id="btn-porcentagem" value="%">%</button>
-              <button class="btn" id="btn-9" value="9">9</button>
-              <button class="btn" id="btn-6" value="6">6</button>
-              <button class="btn" id="btn-3" value="3">3</button>
-              <button class="btn" id="btn-igual" value="=">=</button>
+              <button class="btn" id="btn-porcentagem" onclick="insert(`%`)">
+                %
+              </button>
+              <button class="btn" id="btn-9" onclick="insert(9)">9</button>
+              <button class="btn" id="btn-6" onclick="insert(6)">6</button>
+              <button class="btn" id="btn-3" onclick="insert(3)">3</button>
+              <button class="btn" id="btn-igual" onclick="calcular()">=</button>
             </div>
             <div class="botoes-inferiores-coluna">
-              <button class="btn" id="btn-divisao" value="/">√</button>
-              <button class="btn" id="btn-multi" value="*">X</button>
-              <button class="btn" id="btn-sub" value="-">-</button>
-              <button class="btn" id="btn-adi" value="+">+</button>
+              <button class="btn" id="btn-divisao" onclick="insert(`/`)">
+                ÷
+              </button>
+              <button class="btn" id="btn-multi" onclick="insert(`*`)">
+                X
+              </button>
+              <button class="btn" id="btn-sub" onclick="insert(`-`)">-</button>
+              <button class="btn" id="btn-adi" onclick="insert(`+`)">+</button>
             </div>
           </div>
         </div>
